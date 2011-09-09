@@ -12,20 +12,12 @@
 
 	</div><!-- #main -->
 
-	<footer id="colophon" role="contentinfo">
-
-			<?php
-				/* A sidebar in the footer? Yep. You can can customize
-				 * your footer with three columns of widgets.
-				 */
-				get_sidebar( 'footer' );
-			?>
-
-			<div id="site-generator">
-				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
-			</div>
-	</footer><!-- #colophon -->
+	<div id="footer">
+		<div id="copyright">
+			<p>Except where otherwise <a href="http://www.walley.org.uk/legal/">noted</a>, content on this site is licensed under the <br><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.</p>
+		</div>
+	</div>
+	
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
