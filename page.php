@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-		<div id="primary">
+		<div id="container">
 			<div id="content" role="main">
 
 				<?php the_post(); ?>
@@ -22,6 +22,6 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 
 			</div><!-- #content -->
-		</div><!-- #primary -->
+		</div><!-- #container -->
 
 <?php get_footer(); ?>
