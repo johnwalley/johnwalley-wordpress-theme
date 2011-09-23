@@ -5,8 +5,8 @@
  * Learn more: http://codex.wordpress.org/Post_Formats
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage John_Walley
+ * @since John Walley 1.0
  */
 ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'indexed' ); ?>>

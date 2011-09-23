@@ -1,10 +1,10 @@
 <?php
 /**
- * Twenty Eleven Theme Options
+ * John Walley Theme Options
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage John_Walley
+ * @since John Walley 1.0
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * This function is attached to the admin_enqueue_scripts action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  *
  */
 function twentyeleven_admin_enqueue_scripts( $hook_suffix ) {
@@ -33,7 +33,7 @@ add_action( 'admin_print_styles-appearance_page_theme_options', 'twentyeleven_ad
  *
  * We also use this function to add our theme option if it doesn't already exist.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_theme_options_init() {
 
@@ -73,7 +73,7 @@ add_filter( 'option_page_capability_twentyeleven_options', 'twentyeleven_option_
  *
  * This function is attached to the admin_menu action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_theme_options_add_page() {
 	$theme_page = add_theme_page(
@@ -87,7 +87,7 @@ function twentyeleven_theme_options_add_page() {
 	if ( ! $theme_page )
 		return;
 
-	$help = '<p>' . __( 'Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:', 'twentyeleven' ) . '</p>' .
+	$help = '<p>' . __( 'Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, John Walley, provides the following Theme Options:', 'twentyeleven' ) . '</p>' .
 			'<ol>' .
 				'<li>' . __( '<strong>Color Scheme</strong>: You can choose a color palette of "Light" (light background with dark text) or "Dark" (dark background with light text) for your site.', 'twentyeleven' ) . '</li>' .
 				'<li>' . __( '<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the "Select a Color" button to pick from a color wheel.', 'twentyeleven' ) . '</li>' .
@@ -103,9 +103,9 @@ function twentyeleven_theme_options_add_page() {
 add_action( 'admin_menu', 'twentyeleven_theme_options_add_page' );
 
 /**
- * Returns an array of color schemes registered for Twenty Eleven.
+ * Returns an array of color schemes registered for John Walley.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_color_schemes() {
 	$color_scheme_options = array(
@@ -127,9 +127,9 @@ function twentyeleven_color_schemes() {
 }
 
 /**
- * Returns an array of layout options registered for Twenty Eleven.
+ * Returns an array of layout options registered for John Walley.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_layouts() {
 	$layout_options = array(
@@ -154,9 +154,9 @@ function twentyeleven_layouts() {
 }
 
 /**
- * Returns the default options for Twenty Eleven.
+ * Returns the default options for John Walley.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_get_default_theme_options() {
 	$default_theme_options = array(
@@ -172,9 +172,9 @@ function twentyeleven_get_default_theme_options() {
 }
 
 /**
- * Returns the default link color for Twenty Eleven, based on color scheme.
+ * Returns the default link color for John Walley, based on color scheme.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  *
  * @param $string $color_scheme Color scheme. Defaults to the active color scheme.
  * @return $string Color.
@@ -193,18 +193,18 @@ function twentyeleven_get_default_link_color( $color_scheme = null ) {
 }
 
 /**
- * Returns the options array for Twenty Eleven.
+ * Returns the options array for John Walley.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_get_theme_options() {
 	return get_option( 'twentyeleven_theme_options', twentyeleven_get_default_theme_options() );
 }
 
 /**
- * Returns the options array for Twenty Eleven.
+ * Returns the options array for John Walley.
  *
- * @since Twenty Eleven 1.2
+ * @since John Walley 1.2
  */
 function twentyeleven_theme_options_render_page() {
 	?>
@@ -293,7 +293,7 @@ function twentyeleven_theme_options_render_page() {
  * @see twentyeleven_theme_options_init()
  * @todo set up Reset Options action
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_theme_options_validate( $input ) {
 	$output = $defaults = twentyeleven_get_default_theme_options();
@@ -319,7 +319,7 @@ function twentyeleven_theme_options_validate( $input ) {
 /**
  * Enqueue the styles for the current color scheme.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_enqueue_color_scheme() {
 	$options = twentyeleven_get_theme_options();
@@ -337,7 +337,7 @@ add_action( 'wp_enqueue_scripts', 'twentyeleven_enqueue_color_scheme' );
  *
  * This function is attached to the wp_head action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_print_link_color_style() {
 	$options = twentyeleven_get_theme_options();
@@ -381,9 +381,9 @@ function twentyeleven_print_link_color_style() {
 add_action( 'wp_head', 'twentyeleven_print_link_color_style' );
 
 /**
- * Adds Twenty Eleven layout classes to the array of body classes.
+ * Adds John Walley layout classes to the array of body classes.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_layout_classes( $existing_classes ) {
 	$options = twentyeleven_get_theme_options();

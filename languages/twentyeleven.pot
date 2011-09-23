@@ -1,8 +1,8 @@
-# Copyright (C) 2010 Twenty Eleven
-# This file is distributed under the same license as the Twenty Eleven package.
+# Copyright (C) 2010 John Walley
+# This file is distributed under the same license as the John Walley package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Eleven 1.0\n"
+"Project-Id-Version: John Walley 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyeleven\n"
 "POT-Creation-Date: 2011-06-30 22:47:23+00:00\n"
 "MIME-Version: 1.0\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#. #-#-#-#-#  twentyeleven.pot (Twenty Eleven 1.0)  #-#-#-#-#
+#. #-#-#-#-#  twentyeleven.pot (John Walley 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:26
 msgid "http://wordpress.org/"
@@ -434,7 +434,7 @@ msgstr ""
 msgid ""
 "Some themes provide customization options that are grouped together on a "
 "Theme Options screen. If you change themes, options may change or disappear, "
-"as they are theme-specific. Your current theme, Twenty Eleven, provides the "
+"as they are theme-specific. Your current theme, John Walley, provides the "
 "following Theme Options:"
 msgstr ""
 
@@ -532,7 +532,7 @@ msgid ""
 msgstr ""
 
 #: inc/widgets.php:20
-msgid "Twenty Eleven Ephemera"
+msgid "John Walley Ephemera"
 msgstr ""
 
 #: inc/widgets.php:52
@@ -618,7 +618,7 @@ msgid "Search"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Twenty Eleven"
+msgid "John Walley"
 msgstr ""
 
 #. Theme URI of the plugin/theme
@@ -630,7 +630,7 @@ msgid ""
 "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. "
 "Make it yours with a custom menu, header image, and background -- then go "
 "further with available theme options for light or dark color scheme, custom "
-"link colors, and three layout choices. Twenty Eleven comes equipped with a "
+"link colors, and three layout choices. John Walley comes equipped with a "
 "Showcase page template that transforms your front page into a showcase to "
 "show off your best content, widget support galore (sidebar, three footer "
 "areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to "

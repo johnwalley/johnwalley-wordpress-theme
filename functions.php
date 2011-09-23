@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Eleven functions and definitions
+ * John Walley functions and definitions
  *
  * Sets up the theme and provides some helper functions. Some helper functions
  * are used in the theme as custom template tags. Others are attached to action and
@@ -34,8 +34,8 @@
  * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage John_Walley
+ * @since John Walley 1.0
  */
 
 /**
@@ -69,13 +69,13 @@ if ( ! function_exists( 'twentyeleven_setup' ) ):
  * @uses register_default_headers() To register the default custom header images provided with the theme.
  * @uses set_post_thumbnail_size() To set a custom post thumbnail size.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_setup() {
 
-	/* Make Twenty Eleven available for translation.
+	/* Make John Walley available for translation.
 	 * Translations can be added to the /languages/ directory.
-	 * If you're building a theme based on Twenty Eleven, use a find and replace
+	 * If you're building a theme based on John Walley, use a find and replace
 	 * to change 'twentyeleven' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'twentyeleven', TEMPLATEPATH . '/languages' );
@@ -91,7 +91,7 @@ function twentyeleven_setup() {
 	// Load up our theme options page and related code.
 	require( dirname( __FILE__ ) . '/inc/theme-options.php' );
 
-	// Grab Twenty Eleven's Ephemera widget.
+	// Grab John Walley's Ephemera widget.
 	require( dirname( __FILE__ ) . '/inc/widgets.php' );
 
 	// Add default posts and comments RSS feed links to <head>.
@@ -109,7 +109,7 @@ function twentyeleven_setup() {
 	// This theme uses Featured Images (also known as post thumbnails) for per-post/per-page Custom Header images
 	add_theme_support( 'post-thumbnails' );
 
-	// The next four constants set how Twenty Eleven supports custom headers.
+	// The next four constants set how John Walley supports custom headers.
 
 	// The default header text color
 	define( 'HEADER_TEXTCOLOR', '000' );
@@ -127,7 +127,7 @@ function twentyeleven_setup() {
 	// Larger images will be auto-cropped to fit, smaller ones will be ignored. See header.php.
 	set_post_thumbnail_size( HEADER_IMAGE_WIDTH, HEADER_IMAGE_HEIGHT, true );
 
-	// Add Twenty Eleven's custom image sizes
+	// Add John Walley's custom image sizes
 	add_image_size( 'large-feature', HEADER_IMAGE_WIDTH, HEADER_IMAGE_HEIGHT, true ); // Used for large feature (header) images
 	add_image_size( 'small-feature', 500, 300 ); // Used for featured posts if a large-feature doesn't exist
 
@@ -198,7 +198,7 @@ if ( ! function_exists( 'twentyeleven_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_header_style() {
 
@@ -239,7 +239,7 @@ if ( ! function_exists( 'twentyeleven_admin_header_style' ) ) :
  *
  * Referenced via add_custom_image_header() in twentyeleven_setup().
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_admin_header_style() {
 ?>
@@ -289,7 +289,7 @@ if ( ! function_exists( 'twentyeleven_admin_header_image' ) ) :
  *
  * Referenced via add_custom_image_header() in twentyeleven_setup().
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_admin_header_image() { ?>
 	<div id="headimg">
@@ -364,11 +364,11 @@ add_filter( 'wp_page_menu_args', 'twentyeleven_page_menu_args' );
 /**
  * Register our sidebars and widgetized areas. Also register the default Epherma widget.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_widgets_init() {
 
-	register_widget( 'Twenty_Eleven_Ephemera_Widget' );
+	register_widget( 'John_Walley_Ephemera_Widget' );
 
 	register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'twentyeleven' ),
@@ -439,7 +439,7 @@ function twentyeleven_content_nav( $nav_id ) {
 /**
  * Return the URL for the first link found in the post content.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  * @return string|bool URL or false when no link is present.
  */
 function twentyeleven_url_grabber() {
@@ -491,7 +491,7 @@ if ( ! function_exists( 'twentyeleven_comment' ) ) :
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -556,7 +556,7 @@ if ( ! function_exists( 'twentyeleven_posted_on' ) ) :
  * Prints HTML with meta information for the current post-date/time and author.
  * Create your own twentyeleven_posted_on to override in a child theme
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_posted_on() {
 	printf( __( '<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'twentyeleven' ),
@@ -576,7 +576,7 @@ endif;
  * The first is if the site has only had one author with published posts.
  * The second is if a singular post being displayed
  *
- * @since Twenty Eleven 1.0
+ * @since John Walley 1.0
  */
 function twentyeleven_body_classes( $classes ) {
 

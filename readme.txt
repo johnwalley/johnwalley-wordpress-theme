@@ -1,5 +1,5 @@
-= TWENTY ELEVEN =
+= John Walley =
 
 * by the WordPress team, http://wordpress.org/
 
-== ABOUT TWENTY ELEVEN ==
+== ABOUT John Walley ==

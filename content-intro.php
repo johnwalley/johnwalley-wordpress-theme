@@ -3,8 +3,8 @@
  * The template for displaying page content in the showcase.php page template
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage John_Walley
+ * @since John Walley 1.0
  */
 ?>
 

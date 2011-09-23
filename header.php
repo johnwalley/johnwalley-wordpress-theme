@@ -5,7 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage johnwalley
+ * @subpackage John_Walley
  * @since John Walley 1.0
  */
 ?><!DOCTYPE html>
@@ -78,10 +78,10 @@
 <!-- start menu #nav-main -->
 <div id="nav-main" role="navigation">
   <ul role="menubar">
-	<li id="nav-main-about" class="first"><a aria-haspopup="true" aria-owns="nav-main-about-submenu" tabindex="0" href="./about/">About</a><ul id="nav-main-about-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="./bio/">Bio</a></li><li><a tabindex="-1" href="./skills/">Skills</a></li><li><a tabindex="-1" href="./john_walley_cv.pdf">CV</a></li></ul></li>
+	<li id="nav-main-about" class="first"><a aria-haspopup="true" aria-owns="nav-main-about-submenu" tabindex="0" href="./about/">About</a><ul id="nav-main-about-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="./bio/">Bio</a></li><li><a tabindex="-1" href="./skills/">Skills</a></li><li><a tabindex="-1" href="./john_walley_cv.pdf">CV</a></li><li><a tabindex="-1" href="./skills/">Skills</a></li><li><a tabindex="-1" href="./contact/">Contact</a></li></ul></li>
 	<li id="nav-main-services"><a aria-haspopup="true" aria-owns="nav-main-services-submenu" tabindex="0" href="http://www.walley.org.uk">Services</a><ul id="nav-main-services-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="production.html">Ideas to Production</a></li><li><a tabindex="-1" href="hpc.html">High Performance Computing</a></li><li><a tabindex="-1" href="app_development.html">Application Development and Software Integration</a></li></ul></li>
 	<li id="nav-main-blog"><a aria-haspopup="false" aria-owns="nav-main-blog-submenu" tabindex="0" href="./blog/">Blog</a></li>
-	<li id="nav-main-contact" class="last"><a aria-haspopup="true" aria-owns="nav-main-contact-submenu" tabindex="0" href="http://www.walley.org.uk/contact/">Contact</a><ul id="nav-main-contact-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="email.html">Email</a></li><li><a tabindex="-1" href="http://twitter.com/johnmwalley">Twitter</a></li><li><a tabindex="-1" href="http://uk.linkedin.com/in/johnwalley">LinkedIn</a></li</ul></li>
+	<li id="nav-main-contact" class="last"><a aria-haspopup="true" aria-owns="nav-main-contact-submenu" tabindex="0" href="http://www.walley.org.uk/code/">Code</a><ul id="nav-main-contact-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="android">Android</a></li><li><a tabindex="-1" href="web_development">Web Development</a></li></ul></li>
   </ul>
 </div>
 <!-- end menu #nav-main -->    

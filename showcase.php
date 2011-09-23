@@ -3,15 +3,15 @@
  * Template Name: Showcase Template
  * Description: A Page Template that showcases Sticky Posts, Asides, and Blog Posts
  *
- * The showcase template in Twenty Eleven consists of a featured posts section using sticky posts,
+ * The showcase template in John Walley consists of a featured posts section using sticky posts,
  * another recent posts area (with the latest post shown in full and the rest as a list)
  * and a left sidebar holding aside posts.
  *
  * We are creating two queries to fetch the proper posts and a custom widget for the sidebar.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage John_Walley
+ * @since John Walley 1.0
  */
 
 // Enqueue showcase script for the slider
@@ -208,7 +208,7 @@ get_header(); ?>
 					<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>
 
 						<?php
-						the_widget( 'Twenty_Eleven_Ephemera_Widget', '', array( 'before_title' => '<h3 class="widget-title">', 'after_title' => '</h3>' ) );
+						the_widget( 'John_Walley_Ephemera_Widget', '', array( 'before_title' => '<h3 class="widget-title">', 'after_title' => '</h3>' ) );
 						?>
 
 					<?php endif; // end sidebar widget area ?>
