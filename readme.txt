@@ -1,5 +1,5 @@
 = John Walley =
 
-* by the WordPress team, http://wordpress.org/
+* by John Walley, http://www.walley.org.uk/
 
 == ABOUT John Walley ==
