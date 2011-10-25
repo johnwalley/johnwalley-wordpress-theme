@@ -69,10 +69,6 @@ footer, header, hgroup, menu, nav, section {
 /* =Global
 ----------------------------------------------- */
 
-#page {
-	background: #fff;
-}
-
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
@@ -820,7 +816,7 @@ article.format-status .entry-content {
 	position: relative;
 }
 .singular.page .hentry {
-	padding: 3.5em 0 0;
+	padding: 0 0 0;
 }
 .singular .entry-title {
 	color: #000;
@@ -2421,6 +2417,8 @@ p.comment-form-comment {
 
 html {font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
+body{background:#fff url(images/page-background.png) 50% 0 repeat-x;border-top:2px solid #686868}
+
 #container {width: 980px; margin: auto; text-align: left; position: relative; z-index: 1;}
 
 /* Push text off screen and replace with logo image */
@@ -2855,12 +2853,12 @@ td,th{border:0}
 }
 
 #top-features .top-feature-hover p {
-    font-size: 11px;
+    font-size: 12px;
     color: #fff;
 }
 
 #top-features .top-feature-hover h3 {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0 0 6px 0;
     color: #fff;
@@ -2871,7 +2869,7 @@ td,th{border:0}
 
 #content {
     clear: both;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .features-box .features-container {
