@@ -2619,20 +2619,20 @@ label{color:#fff;font-family:MetaBlack,TrechuchetMS,sans-serif;font-weight:bold;
 #footer li li a:visited{color:#669be1;font-family:georgia,serif;font-weight:normal;font-size:13px;text-transform:none}#footer li li a:hover,
 #footer li li a:active{color:#fff}#footer-menu ul li
 ul{margin:4px
-0 15px 0}#footer-menu
-li.last{margin-right:0}#footer-menu ul ul
+0 15px 0}
+#footer-menu
+li.last{margin-right:0}
+#footer-menu ul ul
 li{float:none;padding:0
-0 0.3em 0;margin:0;font-weight:normal;display:block;width:auto}#footer #footer-right{float:right;width:175px}#footer
-#lang_form{margin:0
-0 15px 22px}#footer #lang_form
-label{margin:10px
-0 4px 0;display:block}#footer #lang_form
-select{width:140px;font-family:sans-serif}#footer #lang_form
-div{display:inline}#footer
+0 0.3em 0;margin:0;font-weight:normal;display:block;width:auto}
+#footer #footer-right{float:right;width:175px}
+#footer
 #copyright{clear:both}#footer #copyright
 p{margin-bottom:0.5em;font-size:85%}#footer #copyright a:hover,
 #footer #copyright a:active{text-decoration:underline}#footer #footer-links{font-size:85%}.portal-page
 
+/* =Side-menu
+----------------------------------------------- */
 #side-menu
 li{list-style-type:none;margin:0;padding:7px
 3px 5px 5px;background:url(/img/tignish/template/side-menu-divider.png) top center no-repeat}#side-menu
@@ -2776,12 +2776,21 @@ td,th{border:0}
     display: block;
 }
 
-.feature-links li#made-easy a .feature-link-content { background-position: 50% 0; }
-.feature-links li#high-performance a .feature-link-content { background-position: 50% -250px; }
-.feature-links li#advanced-security a .feature-link-content { background-position: 50% -500px; }
-.feature-links li#powerful-personalization a .feature-link-content { background-position: 50% -750px; }
-.feature-links li#cutting-edge a .feature-link-content { background-position: 50% -1000px; }
-.feature-links li#universal-access a .feature-link-content { background-position: 50% -1250px; }
+
+.feature-links li#matlab a .feature-link-content { background-position: 50% 0; }
+.feature-links li#mobile a .feature-link-content { background-position: 50% -500px; }
+.feature-links li#web a .feature-link-content { background-position: 50% -750px; }
+
+.feature-links li#common a .feature-link-content { background-position: 50% -250px; }
+.feature-links li#data a .feature-link-content { background-position: 50% -500px; }
+.feature-links li#standard a .feature-link-content { background-position: 50% -1000px; }
+
+.feature-links li#expert a .feature-link-content { background-position: 50% 0; }
+.feature-links li#hpc a .feature-link-content { background-position: 50% -250px; }
+.feature-links li#communication a .feature-link-content { background-position: 50% -500px;; }
+.feature-links li#software a .feature-link-content { background-position: 50% -750px; }
+.feature-links li#maths a .feature-link-content { background-position: 50% -1000px; }
+.feature-links li#finance a .feature-link-content { background-position: 50% -1250px; }
 
 #top-features {
     zoom: 1;
