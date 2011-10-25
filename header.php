@@ -73,18 +73,21 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
 
+<div id="wrapper">
+<div id="doc">
+
 <div id="header">
 <h1>
-  <a href="http://www.walley.org.uk/" title="Back to home page">johnwalley</a>
+  <a href="http://www.walley.org.uk/alpha/" title="Back to home page">johnwalley</a>
 </h1>
 
 <!-- start menu #nav-main -->
 <div id="nav-main" role="navigation">
   <ul role="menubar">
 	<li id="nav-main-about" class="first"><a aria-haspopup="true" aria-owns="nav-main-about-submenu" tabindex="0" href="http://www.walley.org.uk/alpha/about/">About</a><ul id="nav-main-about-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/bio/">Bio</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/skills/">Skills</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/john_walley_cv.pdf">CV</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/contact/">Contact</a></li></ul></li>
-	<li id="nav-main-services"><a aria-haspopup="true" aria-owns="nav-main-services-submenu" tabindex="0" href="http://www.walley.org.uk">Services</a><ul id="nav-main-services-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/production.html">Ideas to Production</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/hpc.html">High Performance Computing</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/app_development.html">Application Development and Software Integration</a></li></ul></li>
+	<li id="nav-main-services"><a aria-haspopup="true" aria-owns="nav-main-services-submenu" tabindex="0" href="http://www.walley.org.uk">Services</a><ul id="nav-main-services-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/production/">Ideas to Production</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/hpc/">High Performance Computing</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/app_development/">Application Development and Software Integration</a></li></ul></li>
 	<li id="nav-main-blog"><a aria-haspopup="false" aria-owns="nav-main-blog-submenu" tabindex="0" href="./blog/">Blog</a></li>
-	<li id="nav-main-contact" class="last"><a aria-haspopup="true" aria-owns="nav-main-contact-submenu" tabindex="0" href="http://www.walley.org.uk/alpha/code/">Code</a><ul id="nav-main-contact-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/android">Android</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/web_development">Web Development</a></li></ul></li>
+	<li id="nav-main-contact" class="last"><a aria-haspopup="true" aria-owns="nav-main-contact-submenu" tabindex="0" href="http://www.walley.org.uk/alpha/code/">Code</a><ul id="nav-main-contact-submenu" aria-expanded="false"><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/matlab">MATLAB</a></li><li class="first"><a tabindex="-1" href="http://www.walley.org.uk/alpha/android">Android</a></li><li><a tabindex="-1" href="http://www.walley.org.uk/alpha/web_development">Web Development</a></li></ul></li>
   </ul>
 </div>
 <!-- end menu #nav-main -->    

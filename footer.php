@@ -11,6 +11,8 @@
 ?>
 
 	</div><!-- #main -->
+	</div><!-- #doc -->
+	</div><!-- #wrapper -->
 
 	<div id="footer">
 		<div id="copyright">
@@ -19,6 +21,9 @@
 	</div>
 	
 </div><!-- #page -->
+
+
+
 
 <?php wp_footer(); ?>
 
