@@ -16,7 +16,7 @@
 
 	<div id="footer">
 		<div id="copyright">
-			<p>Except where otherwise <a href="http://www.walley.org.uk/legal/">noted</a>, content on this site is licensed under the <br><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.</p>
+			<p>Except where otherwise noted, content on this site is licensed under the <br><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.</p>
 		</div>
 	</div>
 	

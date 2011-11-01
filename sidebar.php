@@ -7,7 +7,7 @@
  * @since John Walley 1.0
  */
 
-$options = twentyeleven_get_theme_options();
+$options = johnwalley_get_theme_options();
 $current_layout = $options['theme_layout'];
 
 if ( 'content' != $current_layout ) :
@@ -16,14 +16,14 @@ if ( 'content' != $current_layout ) :
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 				<aside id="archives" class="widget">
-					<h3 class="widget-title"><?php _e( 'Archives', 'twentyeleven' ); ?></h3>
+					<h3 class="widget-title"><?php _e( 'Archives', 'johnwalley' ); ?></h3>
 					<ul>
 						<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 					</ul>
 				</aside>
 
 				<aside id="meta" class="widget">
-					<h3 class="widget-title"><?php _e( 'Meta', 'twentyeleven' ); ?></h3>
+					<h3 class="widget-title"><?php _e( 'Meta', 'johnwalley' ); ?></h3>
 					<ul>
 						<?php wp_register(); ?>
 						<li><?php wp_loginout(); ?></li>

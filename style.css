@@ -211,7 +211,7 @@ input#searchsubmit {
 
 /* Links */
 a {
-	color: #1982d1;
+	color: #ffae08;
 	text-decoration: none;
 }
 a:focus,
@@ -501,7 +501,7 @@ a:hover {
 .comment-content h2 {
 	color: #000;
 	font-weight: bold;
-	margin: 0 0 .8125em;
+	margin: .8125em 0 .8125em;
 }
 .entry-content h3,
 .comment-content h3 {
@@ -1528,17 +1528,17 @@ section.recent-posts .other-recent-posts li:after {
 
 /* Ephemera Widget */
 section.ephemera ol,
-.widget_twentyeleven_ephemera ol {
+.widget_johnwalley_ephemera ol {
 	list-style: square;
 	margin: 5px 0 0;
 }
-.widget_twentyeleven_ephemera .widget-entry-title {
+.widget_johnwalley_ephemera .widget-entry-title {
 	font-size: 15px;
 	font-weight: bold;
 	padding: 0;
 }
-.widget_twentyeleven_ephemera .comments-link a,
-.widget_twentyeleven_ephemera .comments-link > span {
+.widget_johnwalley_ephemera .comments-link a,
+.widget_johnwalley_ephemera .comments-link > span {
 	color: #666;
 	display: block;
 	font-size: 10px;
@@ -1547,7 +1547,7 @@ section.ephemera ol,
 	text-transform: uppercase;
 }
 section.ephemera .entry-title .comments-link a:hover,
-.widget_twentyeleven_ephemera .entry-title .comments-link a:hover {
+.widget_johnwalley_ephemera .entry-title .comments-link a:hover {
 }
 section.ephemera .entry-title a span {
 	color: #29628d;
@@ -2497,7 +2497,8 @@ inset rgba(255,255,255,0.8) 0 -6px 6px 4px; padding-right: 30px; padding-bottom:
 .wrapper h2 {font-family: georgia; font-weight: normal; font-style:italic; font-size:48px; margin:0} 
 .wrapper h3 {font-family: georgia; font-weight: normal; font-style:italic; font-size:30px; margin:0} 
 .featuresColumn {float: left; width: 22%; margin-right: 4%;}
-.featuresColumnWide {float: left; width: 48%; margin-right: 4%;}
+.featuresColumnWide {float: left; width: 74%; margin-right: 4%;}
+
 .last {margin-right: 0}
 
 #footer {text-align: center;}
@@ -2661,19 +2662,7 @@ p.footnote{color:#999}#whatsnew #sidebar .form-pane
 p.footnote{margin:0;font-size:10px}.footnote{padding:5px
 0;font-size:12px}
 #sub-footer
-#newsletter{position:relative;overflow:visible}#sub-footer #newsletter .success-pane
-p{color:white}#sub-footer .form-pane{position:absolute;top:55px;background-color:white;border-radius:15px;padding:15px;z-index:20}#sub-footer #newsletter
-p{max-width:300px;color:white}#sub-footer .email-form p.form-error{position:static;color:white !important}
-#sub-footer #newsletter ul,
-#sub-footer #newsletter ul
-li{margin:0;list-style:none;color:white;float:none}#sub-footer #newsletter
-h3{float:none;background:none;width:auto;height:auto;margin:0;padding:0;color:white}#sub-footer #newsletter .privacy-field
-a{background:none;display:inline;font-size:12px}#sub-footer #newsletter a,
-#sub-footer #newsletter a:link,
-#sub-footer #newsletter a:visited{padding:2px
-1px;font-family:Georgia,serif;margin:0;font-style:normal;color:black}
-#sub-footer #newsletter a:hover{text-decoration:none;text-shadow:none}
-#sub-footer #newsletter a.email-open{color:#4878BF;text-align:center}
+
 .clear{clear:both}
 img{border:0}p,
 dd,
@@ -2705,6 +2694,7 @@ td,th{border:0}
 #main-feature > p {
     margin-right: 230px
 }
+
 
 /* }}} */
 
@@ -2774,27 +2764,63 @@ td,th{border:0}
     display: block;
 }
 
+/* About */
 
-.feature-links li#matlab a .feature-link-content { background-position: 50% 0; }
-.feature-links li#mobile a .feature-link-content { background-position: 50% -500px; }
-.feature-links li#web a .feature-link-content { background-position: 50% -750px; }
+.feature-links li#_bio a .feature-link-content { background-position: 50% -750px; }
+.feature-links li#_skills a .feature-link-content { background-position: 50% -1000px; }
+.feature-links li#_cv a .feature-link-content { background-position: 50% -500px; }
+.feature-links li#_contact a .feature-link-content { background-position: 50% -1500px; }
 
-.feature-links li#common a .feature-link-content { background-position: 50% -250px; }
-.feature-links li#data a .feature-link-content { background-position: 50% -500px; }
-.feature-links li#standard a .feature-link-content { background-position: 50% -1000px; }
+/* Skills */
 
-.feature-links li#expert a .feature-link-content { background-position: 50% 0; }
-.feature-links li#hpc a .feature-link-content { background-position: 50% -250px; }
-.feature-links li#communication a .feature-link-content { background-position: 50% -500px;; }
-.feature-links li#software a .feature-link-content { background-position: 50% -750px; }
-.feature-links li#maths a .feature-link-content { background-position: 50% -1000px; }
-.feature-links li#finance a .feature-link-content { background-position: 50% -1250px; }
+.feature-links li#_expert a .feature-link-content { background-position: 50% 0px; }
+.feature-links li#_hpc a .feature-link-content { background-position: 50% -1250px; }
+.feature-links li#_communication a .feature-link-content { background-position: 50% -750px; }
+.feature-links li#_software a .feature-link-content { background-position: 50% -500px; }
+.feature-links li#_maths a .feature-link-content { background-position: 50% -1000px; }
+.feature-links li#_finance a .feature-link-content { background-position: 50% -2500px; }
+
+/* Contact */
+
+.feature-links li#_email a .feature-link-content { background-position: 50% -1500px; }
+.feature-links li#_phone a .feature-link-content { background-position: 50% -1750px; }
+.feature-links li#_twitter a .feature-link-content { background-position: 50% -2000px; }
+.feature-links li#_linkedin a .feature-link-content { background-position: 50% -2250px; }
+
+/* Services */
+
+.feature-links li#_production a .feature-link-content { background-position: 50% 0px; }
+/* .feature-links li#_hpc a .feature-link-content { background-position: 50% -250px; } */
+.feature-links li#_development a .feature-link-content { background-position: 50% -500px; }
+
+/* Ideas Into Production */
+
+.feature-links li#_common a .feature-link-content { background-position: 50% 0px; }
+.feature-links li#_data a .feature-link-content { background-position: 50% -750px; }
+.feature-links li#_standard a .feature-link-content { background-position: 50% -500px; }
+
+/* High Performance Computing */
+
+.feature-links li#_speed a .feature-link-content { background-position: 50% -1250px; }
+.feature-links li#_gpu a .feature-link-content { background-position: 50% -250px; }
+
+/* Application Development and Software Integration */
+
+/* .feature-links li#_development a .feature-link-content { background-position: 50% 0px; } */
+.feature-links li#_gui a .feature-link-content { background-position: 50% -1000px; }
+.feature-links li#_integrate a .feature-link-content { background-position: 50% 0px; }
+
+/* Code */
+
+.feature-links li#_matlab a .feature-link-content { background-position: 50% 0; }
+.feature-links li#_mobile a .feature-link-content { background-position: 50% -500px; }
+.feature-links li#_web a .feature-link-content { background-position: 50% -750px; }
 
 #top-features {
     zoom: 1;
     float: right;
-    width: 150px;
-    margin: -100px 0 50px 0;
+    width: 200px;
+    margin: 0 0 50px 0;
     padding: 15px 20px 10px 20px;
     background: #fff;
     border: #d7d9e8 1px solid;
@@ -2920,13 +2946,18 @@ img.right {
     margin-left: 20px;
 }
 
+iframe.right {
+    float: right;
+    margin-left: 20px;
+}
+
 .column1,
 .column2,
 .column3,
 .column1-2wide {
     float: left;
     display: inline;
-    width: 290px;
+    width: 270px;
     margin-right: 35px;
     margin-bottom: 25px;
     position: relative;

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: John Walley 1.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyeleven\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/johnwalley\n"
 "POT-Creation-Date: 2011-06-30 22:47:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#. #-#-#-#-#  twentyeleven.pot (John Walley 1.0)  #-#-#-#-#
+#. #-#-#-#-#  johnwalley.pot (John Walley 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:26
 msgid "http://wordpress.org/"
@@ -622,7 +622,7 @@ msgid "John Walley"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://wordpress.org/extend/themes/twentyeleven"
+msgid "http://wordpress.org/extend/themes/johnwalley"
 msgstr ""
 
 #. Description of the plugin/theme
